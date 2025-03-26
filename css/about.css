@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background-image: url(../images/img3.jpg);
+    background-image: url(../images/img7.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -32,13 +32,13 @@ nav {
 }
 
 .logo a {
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
 
 }
 
 .logo a span {
-    color: #f9004d;
+    color: #013bf8;
 }
 
 nav ul li {
@@ -54,21 +54,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f9004d;
+    color: #053edb;
 }
 
 .content {
-    margin-top: 10%;
-    font-size: 20px;
+    margin-top: 6%;
+    font-size: 32px;
 }
 
 .content h2 {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .content p {
-    margin-top: 10px;
-    line-height: 25px;
+    margin-top: 15px;
+    line-height: 34px;
+    text-align: justify;
 }
 
 a {
@@ -80,48 +81,3 @@ a {
     margin-top: 30px;
 }
 
-.view-portfolio {
-    color: #000;
-    text-decoration: none;
-    background-color: #fff;
-    padding: 9px 25px;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.view-portfolio:hover {
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-}
-
-.socials {
-    margin-top: 3%;
-}
-
-.social-icons {
-    list-style: none;
-}
-
-.social-icons li {
-    display: inline-block;
-}
-
-.social-icons a {
-    font-size: 28px;
-    display: inline-block;
-    line-height: 44px;
-    color: #fff;
-    background-color: transparent;
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    margin-right: 8px;
-    border-radius: 100%;
-}
-
-.social-icons a:hover{
-    background-color: #f9004d;
-    width: 44px;
-    height: 44px;
-}

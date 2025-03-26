@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-    padding: 10px 0px;
+    padding: 25px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,18 +32,18 @@ nav {
 }
 
 .logo a {
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
 
 }
 
 .logo a span {
-    color: #f9004d;
+    color: #0021b6;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 10px 15px;
+    margin: 15px 15px;
     list-style: none;
 
 }
@@ -51,10 +51,15 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
+    background-color: #00379e48;
+    padding: 1px 20px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 nav ul li a:hover {
-    color: #f9004d;
+    color: #00266d;
 }
 
 .content {
@@ -121,7 +126,7 @@ a {
 }
 
 .social-icons a:hover{
-    background-color: #f9004d;
+    background-color: #053edb;
     width: 44px;
     height: 44px;
 }
